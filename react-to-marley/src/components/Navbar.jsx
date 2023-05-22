@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-
+import { FaBars, FaTimes, FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
+import {BsFillPersonLinesFill} from "react-icons/bs";
+import {HiOutlineMail} from 'react-icons/hi';
 import Logo from "../assets/MS.png";
 
 const Navbar = () => {
@@ -23,13 +24,13 @@ const Navbar = () => {
 
       {/* Navbar hamburger */}
       <div onClick={doClick} className="md:hidden z-10">
-        <FaBars />
+        {!navbar ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Responsive for mobile menu */}
       <ul
         className={
-          !nav
+          !navbar
             ? "hidden"
             : "absolute top-0 left-0 w-full h-screen bg-[#f25c54] flex flex-col justify-center items-center"
         }
@@ -41,7 +42,16 @@ const Navbar = () => {
       </ul>
 
       {/* Social media icons */}
-      <div className="hidden"></div>
+      <div className="flex fixed flex-col top-[40%] left-0">
+        <ul>
+          <li>
+              <a href="/">
+                Linkedin <FaFacebook />
+              </a>
+          </li>
+        </ul>
+
+      </div>
     </div>
   );
 };
