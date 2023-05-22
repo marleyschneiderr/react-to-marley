@@ -3,7 +3,7 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const Homepage = () => {
   return (
-    <div className='bg-[#f25c54]'>
+    <div className='w-full h-screen bg-[#720026]'>
         
 
 

@@ -9,7 +9,7 @@ const Navbar = () => {
   const doClick = () => setNavbar(!navbar);
 
   return (
-    <div className="fixed w-full h-[85px] flex justify-between items-center px-4 bg-[#f25c54] text-white">
+    <div className="fixed w-full h-[85px] flex justify-between items-center px-4 bg-[#720026] text-white">
       <div>
         <img scr={Logo} alt="Logo Image" style={{ width: "50px" }} />
       </div>
@@ -32,7 +32,7 @@ const Navbar = () => {
         className={
           !navbar
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#f25c54] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#720026] flex flex-col justify-center items-center"
         }
       >
         <li className="py-5 text-4xl">Home</li>
@@ -44,9 +44,9 @@ const Navbar = () => {
       {/* Social media icons */}
       <div className="flex fixed flex-col top-[40%] left-0">
         <ul>
-          <li>
-              <a href="/">
-                Linkedin <FaFacebook />
+          <li className="w-[165p] h-[65px] flex justify-between items-center ">
+              <a className="flex justify-between items-center w-full text-white-300" href="/">
+                Linkedin <FaFacebook size={40}/>
               </a>
           </li>
         </ul>
