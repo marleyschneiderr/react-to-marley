@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
-import Logo from "../assets/msLOGO.png";
+import Logo from "./images/msLOGO.png";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
