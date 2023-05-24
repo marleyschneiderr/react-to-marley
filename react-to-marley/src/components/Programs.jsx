@@ -14,7 +14,7 @@ const Programs = () => {
     <div name="Programs" className="w-full h-screen bg-[#2d00f7] text-white">
       <div className="max-w-[1010px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-[#F20089]">Language Experience</p>
+          <p className="text-4xl font-bold inline border-b-4 border-[#F20089]">Program Skills</p>
           <p className="py-5">I have built applications using these languages</p>
         </div>
 
