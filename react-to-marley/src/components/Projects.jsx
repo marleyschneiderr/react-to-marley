@@ -26,9 +26,9 @@ const Projects = () => {
           <div style={{ backgroundImage: `url(${ImpressPng})` }} className="shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto div-pics">
             
             {/* More Hovering */}
-            <div className="opacity-0 group:hover:opacity-100">
+            <div className="opacity-0 hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
-                Impress Your Friends Application
+                Impress Your Friends
               </span>
               <div className="pt-8 text-center">
                 <a href="https://github.com/GrindBoiWes/impress-your-friends">
@@ -46,7 +46,7 @@ const Projects = () => {
           <div style={{ backgroundImage: `url(${MusicPng})` }} className="shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto div-pics">
             
             {/* More Hovering */}
-            <div className="opacity-0 group:hover:opacity-100">
+            <div className="opacity-0 hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
                 Music to my Ears
               </span>
@@ -66,7 +66,7 @@ const Projects = () => {
           <div style={{ backgroundImage: `url(${SocialPng})` }} className="shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto div-pics">
             
             {/* More Hovering */}
-            <div className="opacity-0 group:hover:opacity-100">
+            <div className="opacity-0 hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
                 Be More Social 
               </span>
@@ -86,7 +86,7 @@ const Projects = () => {
           <div style={{ backgroundImage: `url(${TextPng})` }} className="shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto div-pics">
             
             {/* More Hovering */}
-            <div className="opacity-0 group:hover:opacity-100">
+            <div className="opacity-0 hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
                 PWA Text Editor 
               </span>
@@ -107,7 +107,7 @@ const Projects = () => {
           <div style={{ backgroundImage: `url(${EmployeePng})` }} className="shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto div-pics">
             
             {/* More Hovering */}
-            <div className="opacity-0 group:hover:opacity-100">
+            <div className="opacity-0 hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
                 Employee Tracker
               </span>
@@ -127,9 +127,9 @@ const Projects = () => {
           <div style={{ backgroundImage: `url(${RegexPng})` }} className="shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto div-pics">
             
             {/* More Hovering */}
-            <div className="opacity-0 group:hover:opacity-100">
+            <div className="opacity-0 hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
-                Regular Expressions Paper
+                Regular Expressions
               </span>
               <div className="pt-8 text-center">
                 <a href="https://github.com/marleyschneiderr/computer-science-wizard">
