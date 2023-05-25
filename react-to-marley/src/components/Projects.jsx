@@ -31,11 +31,11 @@ const Projects = () => {
                 Impress Your Friends Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/GrindBoiWes/impress-your-friends">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Github</button>
                 </a>
 
-                <a href="/">
+                <a href="https://grindboiwes.github.io/impress-your-friends/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Live Link</button>
                 </a>
               </div>
@@ -48,14 +48,14 @@ const Projects = () => {
             {/* More Hovering */}
             <div className="opacity-0 group:hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
-                Impress Your Friends Application
+                Music to my Ears
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/Ally27/Music-to-My-Ears">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Github</button>
                 </a>
 
-                <a href="/">
+                <a href="https://music-to-my-ears1.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Live Link</button>
                 </a>
               </div>
@@ -68,15 +68,15 @@ const Projects = () => {
             {/* More Hovering */}
             <div className="opacity-0 group:hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
-                Impress Your Friends Application
+                Be More Social 
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/marleyschneiderr/be-more-social">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Github</button>
                 </a>
 
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Live Link</button>
+                <a href="https://drive.google.com/file/d/1hdZl9W89dOukRcrZ6jYHK2YTKBs7Ggl8/view">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Video</button>
                 </a>
               </div>
             </div>
@@ -88,14 +88,14 @@ const Projects = () => {
             {/* More Hovering */}
             <div className="opacity-0 group:hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
-                Impress Your Friends Application
+                PWA Text Editor 
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/marleyschneiderr/edit-dat-txt">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Github</button>
                 </a>
 
-                <a href="/">
+                <a href="https://edit-dat-text.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Live Link</button>
                 </a>
               </div>
@@ -109,15 +109,15 @@ const Projects = () => {
             {/* More Hovering */}
             <div className="opacity-0 group:hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
-                Impress Your Friends Application
+                Employee Tracker
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/marleyschneiderr/track-that-employee">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Github</button>
                 </a>
 
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Live Link</button>
+                <a href="https://drive.google.com/file/d/1el7poBd9HXd-j2b17cSf5eZObciNBF64/view">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Video</button>
                 </a>
               </div>
             </div>
@@ -129,15 +129,15 @@ const Projects = () => {
             {/* More Hovering */}
             <div className="opacity-0 group:hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
-                Impress Your Friends Application
+                Regular Expressions Paper
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/marleyschneiderr/computer-science-wizard">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Github</button>
                 </a>
 
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Live Link</button>
+                <a href="https://github.com/marleyschneiderr/computer-science-wizard/blob/main/gist-template.md">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Regex.md</button>
                 </a>
               </div>
             </div>
