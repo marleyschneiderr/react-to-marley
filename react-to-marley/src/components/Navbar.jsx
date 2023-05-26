@@ -77,7 +77,7 @@ const Navbar = () => {
           <li className="w-[165p] h-[65px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-white-300"
-              href="/"
+              href="https://www.linkedin.com/in/marley-schneider/"
             >
               Linkedin <FaLinkedin size={40} />
             </a>
