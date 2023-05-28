@@ -1,5 +1,5 @@
 import Aboutme from "./components/Aboutme";
-import Contact from "./components/contact";
+import Contact from "./components/Contact";
 import Homepage from "./components/Homepage";
 import Navbar from "./components/Navbar";
 import Programs from "./components/Programs";
