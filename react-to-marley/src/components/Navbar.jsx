@@ -57,10 +57,12 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#2d00f7] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-5 text-4xl">Home</li>
-        <li className="py-5 text-4xl">Portfolio</li>
-        <li className="py-5 text-4xl">Contact</li>
-        <li className="py-5 text-4xl">Resume</li>
+        <li className="py-5 text-4xl"> <a href="#home">Home</a></li>
+        <li className="py-5 text-4xl"><a href="#aboutme">About</a></li>
+        <li className="py-5 text-4xl"><a href="#skills">Skills</a></li>
+        <li className="py-5 text-4xl"><a href="#portfolio">Portfolio</a></li>
+        <li className="py-5 text-4xl"><a href="#contact">Contact</a></li>
+        <li className="py-5 text-4xl"><a href="#resume">Resume</a></li>
       </ul>
 
       {/* Social media icons */}
