@@ -37,10 +37,8 @@ const Navbar = () => {
         <li>
           <a href="#contact">Contact</a>
         </li>
-        <li>
-          <a href="./resume/marley-resume.pdf" download>
-            Resume
-          </a>
+        <li className="py-5 text-4xl">
+          <a href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing">Resume</a>
         </li>
       </ul>
 
@@ -57,12 +55,27 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#2d00f7] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-5 text-4xl"> <a href="#home">Home</a></li>
-        <li className="py-5 text-4xl"><a href="#aboutme">About</a></li>
-        <li className="py-5 text-4xl"><a href="#skills">Skills</a></li>
-        <li className="py-5 text-4xl"><a href="#portfolio">Portfolio</a></li>
-        <li className="py-5 text-4xl"><a href="#contact">Contact</a></li>
-        <li className="py-5 text-4xl"><a href="#resume">Resume</a></li>
+        <li className="py-5 text-4xl">
+          {" "}
+          <a href="#home">Home</a>
+        </li>
+        <li className="py-5 text-4xl">
+          <a href="#aboutme">About</a>
+        </li>
+        <li className="py-5 text-4xl">
+          <a href="#skills">Skills</a>
+        </li>
+        <li className="py-5 text-4xl">
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li className="py-5 text-4xl">
+          <a href="#contact">Contact</a>
+        </li>
+        <li className="py-5 text-4xl">
+          <a href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing">
+            Resume
+          </a>
+        </li>
       </ul>
 
       {/* Social media icons */}
@@ -87,7 +100,7 @@ const Navbar = () => {
           <li className="w-[165p] h-[65px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#b100e8]">
             <a
               className="flex justify-between items-center w-full text-white-300"
-              href="/"
+              href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={40} />
             </a>
