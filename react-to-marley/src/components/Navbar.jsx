@@ -22,10 +22,26 @@ const Navbar = () => {
 
       {/* Menu */}
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-        <li>Resume</li>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#aboutme">About</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="./resume/marley-resume.pdf" download>
+            Resume
+          </a>
+        </li>
       </ul>
 
       {/* Navbar hamburger */}
