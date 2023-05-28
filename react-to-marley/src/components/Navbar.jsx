@@ -4,7 +4,6 @@ import {
   FaTimes,
   FaLinkedin,
   FaGithub,
-  FaFacebook,
   FaInstagram,
 } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -18,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[85px] flex justify-between items-center px-4 bg-[#2d00f7] text-white">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "100px" }} />
+        <img src={Logo} alt="Logo" style={{ width: "100px" }} />
       </div>
 
       {/* Menu */}
@@ -36,7 +35,7 @@ const Navbar = () => {
           <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contactme">Contact</a>
         </li>
         <li>
           <a href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing">Resume</a>
