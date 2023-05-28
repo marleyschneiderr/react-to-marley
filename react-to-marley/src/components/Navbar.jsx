@@ -5,6 +5,7 @@ import {
   FaLinkedin,
   FaGithub,
   FaFacebook,
+  FaInstagram,
 } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
@@ -111,6 +112,14 @@ const Navbar = () => {
               href="https://www.linkedin.com/in/marley-schneider/"
             >
               Linkedin <FaLinkedin size={40} />
+            </a>
+          </li>
+          <li className="w-[165p] h-[65px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#F20089]">
+            <a
+              className="flex justify-between items-center w-full text-white-300"
+              href="https://www.instagram.com/marleyschneiderr/"
+            >
+              Instagram <FaInstagram size={40} />
             </a>
           </li>
         </ul>
