@@ -37,7 +37,7 @@ const Navbar = () => {
         <li>
           <a href="#contact">Contact</a>
         </li>
-        <li className="py-5 text-4xl">
+        <li>
           <a href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing">Resume</a>
         </li>
       </ul>
