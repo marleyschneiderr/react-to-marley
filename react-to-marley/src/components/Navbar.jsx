@@ -95,40 +95,40 @@ const Navbar = () => {
       </div>
 
       {/* Responsive mobile menu */}
-{mobileMenuOpen && (
-  <ul className="fixed top-0 left-0 w-full h-screen bg-[#2d00f7] flex flex-col justify-center items-center">
-    <li className="py-5 text-4xl">
-      <a href="#home" onClick={() => handleClick("home")}>
-        Home
-      </a>
-    </li>
-    <li className="py-5 text-4xl">
-      <a href="#aboutme" onClick={() => handleClick("aboutme")}>
-        About
-      </a>
-    </li>
-    <li className="py-5 text-4xl">
-      <a href="#skills" onClick={() => handleClick("skills")}>
-        Skills
-      </a>
-    </li>
-    <li className="py-5 text-4xl">
-      <a href="#portfolio" onClick={() => handleClick("portfolio")}>
-        Portfolio
-      </a>
-    </li>
-    <li className="py-5 text-4xl">
-      <a href="#contactme" onClick={() => handleClick("contactme")}>
-        Contact
-      </a>
-    </li>
-    <li className="py-5 text-4xl">
-      <a href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing">
-        Resume
-      </a>
-    </li>
-  </ul>
-)}
+      {mobileMenuOpen && (
+        <ul className="fixed top-0 left-0 w-full h-screen bg-[#2d00f7] flex flex-col justify-center items-center">
+          <li className="py-5 text-4xl">
+            <a href="#home" onClick={() => handleClick("home")}>
+              Home
+            </a>
+          </li>
+          <li className="py-5 text-4xl">
+            <a href="#aboutme" onClick={() => handleClick("aboutme")}>
+              About
+            </a>
+          </li>
+          <li className="py-5 text-4xl">
+            <a href="#skills" onClick={() => handleClick("skills")}>
+              Skills
+            </a>
+          </li>
+          <li className="py-5 text-4xl">
+            <a href="#portfolio" onClick={() => handleClick("portfolio")}>
+              Portfolio
+            </a>
+          </li>
+          <li className="py-5 text-4xl">
+            <a href="#contactme" onClick={() => handleClick("contactme")}>
+              Contact
+            </a>
+          </li>
+          <li className="py-5 text-4xl">
+            <a href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing">
+              Resume
+            </a>
+          </li>
+        </ul>
+      )}
       {/* Social media icons */}
       <div className="hidden lg:flex fixed flex-col top-[40%] left-0">
         <ul>
