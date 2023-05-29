@@ -29,3 +29,9 @@
       hsla(242, 74%, 61%, 0.8)   
   )!important;
 }
+
+.notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX }
