@@ -24,7 +24,7 @@ const Contact = () => {
     } else if (message === "") {
       setError("Please enter your message");
     } else {
-      // Perform form submission
+      // submitting the form - but already being done with getform.io
       document.getElementById("contactme").submit();
     }
   };
