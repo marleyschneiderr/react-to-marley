@@ -11,7 +11,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import Logo from "./images/msLOGO.png";
 
 const Navbar = () => {
-  const [navbar, setNavbar] = useState(false);
+//   const [navbar, setNavbar] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
 
