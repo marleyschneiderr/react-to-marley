@@ -1,15 +1,29 @@
 import React, { useState } from "react";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import {
+  FaBars,
+  FaTimes,
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+} from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import Logo from "./images/msLOGO.png";
-import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const [activeTitle, setActiveTitle] = useState(""); // State variable to track the active title
+  const [navbar, setNavbar] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
 
-  const handleClick = (title) => {
-    setActiveTitle(title);
+  const handleClick = (section) => {
+    setActiveSection(section);
+    if (mobileMenuOpen) {
+      setMobileMenuOpen(false);
+    }
+  };
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
   };
 
   return (
@@ -19,61 +33,56 @@ const Navbar = () => {
       </div>
 
       {/* Menu */}
-      <ul className=" nav hidden md:flex">
+      <ul className={`hidden md:flex ${mobileMenuOpen ? "hidden" : ""}`}>
         <li>
-          <NavLink exact to="/Homepage">
-            Homepage
-          </NavLink>
+          <a
+            href="#home"
+            onClick={() => handleClick("home")}
+            className={activeSection === "home" ? "active-link" : ""}
+          >
+            Home
+          </a>
         </li>
         <li>
-          <NavLink
-            exact
-            to="/Aboutme"
-            onClick={() => handleClick("Aboutme")}
-            activeClassName="active-link"
-            className={activeTitle === "Aboutme" ? "active" : ""}
+          <a
+            href="#aboutme"
+            onClick={() => handleClick("aboutme")}
+            className={activeSection === "aboutme" ? "active-link" : ""}
           >
             About
-          </NavLink>
+          </a>
         </li>
         <li>
-          <NavLink
-            exact
-            to="/Programs"
-            onClick={() => handleClick("Programs")}
-            activeClassName="active-link"
-            className={activeTitle === "Programs" ? "active" : ""}
+          <a
+            href="#skills"
+            onClick={() => handleClick("skills")}
+            className={activeSection === "skills" ? "active-link" : ""}
           >
             Skills
-          </NavLink>
+          </a>
         </li>
         <li>
-          <NavLink
-            exact
-            to="/Projects"
-            onClick={() => handleClick("Projects")}
-            activeClassName="active-link"
-            className={activeTitle === "Projects" ? "active" : ""}
+          <a
+            href="#portfolio"
+            onClick={() => handleClick("portfolio")}
+            className={activeSection === "portfolio" ? "active-link" : ""}
           >
             Portfolio
-          </NavLink>
+          </a>
         </li>
         <li>
-          <NavLink
-            exact
-            to="/Contact"
-            onClick={() => handleClick("Contact")}
-            activeClassName="active-link"
-            className={activeTitle === "Contact" ? "active" : ""}
+          <a
+            href="#contactme"
+            onClick={() => handleClick("contactme")}
+            className={activeSection === "contactme" ? "active-link" : ""}
           >
             Contact
-          </NavLink>
+          </a>
         </li>
         <li>
           <a
             href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing"
-            onClick={() => handleClick("Resume")}
-            style={{ color: activeTitle === "Resume" ? "#E500A4" : "inherit" }}
+            className={activeSection === "resume" ? "active-link" : ""}
           >
             Resume
           </a>
@@ -81,41 +90,45 @@ const Navbar = () => {
       </ul>
 
       {/* Navbar hamburger */}
-      <div onClick={doClick} className="md:hidden z-10">
-        {!navbar ? <FaBars /> : <FaTimes />}
+      <div onClick={toggleMobileMenu} className="md:hidden z-10">
+        {!mobileMenuOpen ? <FaBars /> : <FaTimes />}
       </div>
 
-      {/* Responsive for mobile menu */}
-      <ul
-        className={
-          !navbar
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#2d00f7] flex flex-col justify-center items-center"
-        }
-      >
-        <li className="py-5 text-4xl">
-          {" "}
-          <a href="#home">Home</a>
-        </li>
-        <li className="py-5 text-4xl">
-          <a href="#aboutme">About</a>
-        </li>
-        <li className="py-5 text-4xl">
-          <a href="#skills">Skills</a>
-        </li>
-        <li className="py-5 text-4xl">
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li className="py-5 text-4xl">
-          <a href="#contact">Contact</a>
-        </li>
-        <li className="py-5 text-4xl">
-          <a href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing">
-            Resume
-          </a>
-        </li>
-      </ul> 
-
+      {/* Responsive mobile menu */}
+{mobileMenuOpen && (
+  <ul className="fixed top-0 left-0 w-full h-screen bg-[#2d00f7] flex flex-col justify-center items-center">
+    <li className="py-5 text-4xl">
+      <a href="#home" onClick={() => handleClick("home")}>
+        Home
+      </a>
+    </li>
+    <li className="py-5 text-4xl">
+      <a href="#aboutme" onClick={() => handleClick("aboutme")}>
+        About
+      </a>
+    </li>
+    <li className="py-5 text-4xl">
+      <a href="#skills" onClick={() => handleClick("skills")}>
+        Skills
+      </a>
+    </li>
+    <li className="py-5 text-4xl">
+      <a href="#portfolio" onClick={() => handleClick("portfolio")}>
+        Portfolio
+      </a>
+    </li>
+    <li className="py-5 text-4xl">
+      <a href="#contactme" onClick={() => handleClick("contactme")}>
+        Contact
+      </a>
+    </li>
+    <li className="py-5 text-4xl">
+      <a href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing">
+        Resume
+      </a>
+    </li>
+  </ul>
+)}
       {/* Social media icons */}
       <div className="hidden lg:flex fixed flex-col top-[40%] left-0">
         <ul>
