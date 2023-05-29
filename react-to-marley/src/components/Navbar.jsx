@@ -1,18 +1,16 @@
 import React, { useState } from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaLinkedin,
-  FaGithub,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import Logo from "./images/msLOGO.png";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const [navbar, setNavbar] = useState(false);
-  const doClick = () => setNavbar(!navbar);
+  const [activeTitle, setActiveTitle] = useState(""); // State variable to track the active title
+
+  const handleClick = (title) => {
+    setActiveTitle(title);
+  };
 
   return (
     <div className="fixed w-full h-[85px] flex justify-between items-center px-4 bg-[#2d00f7] text-white">
@@ -21,24 +19,64 @@ const Navbar = () => {
       </div>
 
       {/* Menu */}
-      <ul className="hidden md:flex">
+      <ul className=" nav hidden md:flex">
         <li>
-          <a href="#home">Home</a>
+          <NavLink exact to="/Homepage">
+            Homepage
+          </NavLink>
         </li>
         <li>
-          <a href="#aboutme">About</a>
+          <NavLink
+            exact
+            to="/Aboutme"
+            onClick={() => handleClick("Aboutme")}
+            activeClassName="active-link"
+            className={activeTitle === "Aboutme" ? "active" : ""}
+          >
+            About
+          </NavLink>
         </li>
         <li>
-          <a href="#skills">Skills</a>
+          <NavLink
+            exact
+            to="/Programs"
+            onClick={() => handleClick("Programs")}
+            activeClassName="active-link"
+            className={activeTitle === "Programs" ? "active" : ""}
+          >
+            Skills
+          </NavLink>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <NavLink
+            exact
+            to="/Projects"
+            onClick={() => handleClick("Projects")}
+            activeClassName="active-link"
+            className={activeTitle === "Projects" ? "active" : ""}
+          >
+            Portfolio
+          </NavLink>
         </li>
         <li>
-          <a href="#contactme">Contact</a>
+          <NavLink
+            exact
+            to="/Contact"
+            onClick={() => handleClick("Contact")}
+            activeClassName="active-link"
+            className={activeTitle === "Contact" ? "active" : ""}
+          >
+            Contact
+          </NavLink>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing">Resume</a>
+          <a
+            href="https://drive.google.com/file/d/1N2RQcF8eYyeHvDkHhPPcsAvQ6zo__P01/view?usp=sharing"
+            onClick={() => handleClick("Resume")}
+            style={{ color: activeTitle === "Resume" ? "#E500A4" : "inherit" }}
+          >
+            Resume
+          </a>
         </li>
       </ul>
 
@@ -76,7 +114,7 @@ const Navbar = () => {
             Resume
           </a>
         </li>
-      </ul>
+      </ul> 
 
       {/* Social media icons */}
       <div className="hidden lg:flex fixed flex-col top-[40%] left-0">
