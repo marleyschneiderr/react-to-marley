@@ -35,3 +35,7 @@
   bottom: 20px;
   left: 50%;
   transform: translateX }
+
+  .active {
+    color: #db00b6;
+  }
