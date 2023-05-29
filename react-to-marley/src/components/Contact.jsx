@@ -89,9 +89,7 @@ const Contact = () => {
         </button>
       </form>
       {error && (
-        <div
-          className="fixed bottom-0 left-0 w-full bg-red-500 text-white py-2 text-center"
-        >
+        <div className="fixed bottom-0 left-0 w-full bg-red-500 text-white py-2 text-center">
           {error}
         </div>
       )}
@@ -100,4 +98,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
