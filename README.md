@@ -1,16 +1,19 @@
-# react-to-marley
+# react-to-marley👋
 A web development portfolio for Marley Schneider made with React.
 
-## Description
+## Description🎬
 Welcome to my react portfolio, the second version of a portfolio I created to display my web development work. I am Marley Schneider, an aspiring full stack web developer who is eager to enter the field of web development professionally. To develop this portfolio, I combined fundamental CSS with Tailwinds CSS, all powered by React.
 
 This portfolio was made to highlight my work from the Web Development Bootcamp at the University of Washington. I have experimented with and developed a variety of applications that were taught to me throughout this bootcamp, including: OOP (Object-Oriented Programming), HTML, CSS, MySQL, Express.js, JavaScript, Node.js, Model-View-Controller (MVC), React.j, Handlebars.js, and more!
 
-Let's Chat! I look forward to learning about new web development opportunities and sharing new projects I create through this portfolio. I am excited to kick start my carrer in web development and create applications that are innovative and exciting to the web dev world. :) 
+Chat with me! Through this portfolio, I am excited to share new projects I have created as well as learn about web development possibilities. I am eager to launch my web development career and produce applications that are cutting-edge and intriguing to the web development community. 😆
 
 
-## Screenshot of Live Application
-![alt-text](./images/.png)
+## Screenshot of Live Application📸
+![Screenshot of Live Portfolio](./images/portfolio-marley.png)
+
+## Link to Live Webpage🕸
+
 
 ## Table of Contents
 * [Installation](#installation)
@@ -19,21 +22,21 @@ Let's Chat! I look forward to learning about new web development opportunities a
 * [Contributors](#contributors)
 * [Questions](#questions)
 
-## Installation
-To install this project, clone this repository on Github and open it in your personal IDE. 
+## Installation💽
+To install this project locally:
+- Clone this repository on Github and open it in your personal IDE. 
+- Install all required dependencies by running `npm install` in your terminal.
+- After dependencies are installed, run `npm run start` to launch the react portfolio locally on your browser.
 
-## Dependencies 
-React
+## Dependencies💻
+`React`, `Tailwinds CSS`, `Javascript`
 
-## Usage
+## Usage🙌
+Visit the live webpage link to get to know me and the projects I have created. I am happy you are here!
 
-
-## Contributors 
-
-
-## License
-
-This project is licensed under the [MIT](https://opensource.org/license/mit/) license. ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+## Contributors👈
+Created by Marley Schneider. 
+- Thank you to askBCS for assisting me with Navbar functionality, color changing components, image rendering, and page setup. 
 
 # Getting Started with Create React App
 
