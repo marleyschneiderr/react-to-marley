@@ -10,7 +10,7 @@ Chat with me! Through this portfolio, I am excited to share new projects I have 
 
 
 ## Screenshot of Live Application📸
-![Screenshot of Live Portfolio](./images/portfolio-marley.png)
+![Screenshot of Live Portfolio](./react-to-marley/images/portfolio-marley.png)
 
 ## Link to Live Webpage🕸
 
