@@ -15,7 +15,7 @@ Chat with me! Through this portfolio, I am excited to share new projects I have 
 ## Link to Live Webpage🕸
 
 
-## Table of Contents
+## Table of Contents📘
 * [Installation](#installation)
 * [Dependencies](#dependencies)
 * [Usage](#usage)
