@@ -38,7 +38,8 @@ Visit the live webpage link to get to know me and the projects I have created. I
 Created by Marley Schneider. 
 - Thank you to askBCS for assisting me with Navbar functionality, color changing components, image rendering, and page setup. 
 
-# Getting Started with Create React App
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
