@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-to-marley/static/css/main.2276da4d.css",
+    "main.js": "/react-to-marley/static/js/main.c1edab64.js",
+    "static/media/profile-image.png": "/react-to-marley/static/media/profile-image.67514b9b22321ec14747.png",
+    "static/media/music.png": "/react-to-marley/static/media/music.23531447a7529e7fd257.png",
+    "static/media/tailwind.png": "/react-to-marley/static/media/tailwind.f15442967bf9302c0141.png",
+    "static/media/regex.png": "/react-to-marley/static/media/regex.31697ae4b2036a1e621e.png",
+    "static/media/text.png": "/react-to-marley/static/media/text.61b23b445ecf4ed391df.png",
+    "static/media/impress.png": "/react-to-marley/static/media/impress.afc726c0211bf0aa08fe.png",
+    "static/media/Employee-Tracker.png": "/react-to-marley/static/media/Employee-Tracker.a2a23165ea7be2619163.png",
+    "static/media/react.png": "/react-to-marley/static/media/react.428839d4924b447d4d50.png",
+    "static/media/javascript.png": "/react-to-marley/static/media/javascript.149e4b3591cc116b52f0.png",
+    "static/media/be-more-social.png": "/react-to-marley/static/media/be-more-social.521c6dfbd3719515ff21.png",
+    "static/media/html.png": "/react-to-marley/static/media/html.fed94535dcf597b45926.png",
+    "static/media/github.png": "/react-to-marley/static/media/github.ba9cb8d57d53e7189c48.png",
+    "static/media/css.png": "/react-to-marley/static/media/css.f85f13a3cffc71e8f0e7.png",
+    "static/media/node.png": "/react-to-marley/static/media/node.1fac080eeec0a547c743.png",
+    "static/media/mongo.png": "/react-to-marley/static/media/mongo.91f15241e98fa5f1a61d.png",
+    "static/media/msLOGO.png": "/react-to-marley/static/media/msLOGO.ee60de5b1b64adc673fb.png",
+    "index.html": "/react-to-marley/index.html",
+    "main.2276da4d.css.map": "/react-to-marley/static/css/main.2276da4d.css.map",
+    "main.c1edab64.js.map": "/react-to-marley/static/js/main.c1edab64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2276da4d.css",
+    "static/js/main.c1edab64.js"
+  ]
+}
