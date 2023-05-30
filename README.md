@@ -13,7 +13,7 @@ Chat with me! Through this portfolio, I am excited to share new projects I have 
 ![Screenshot of Live Portfolio](./react-to-marley/images/portfolio-marley.png)
 
 ## Link to Live Webpage🕸
-
+https://marleyschneiderr.github.io/react-to-marley/
 
 ## Table of Contents📘
 * [Installation](#installation)
@@ -33,6 +33,7 @@ To install this project locally:
 
 ## Usage🙌
 Visit the live webpage link to get to know me and the projects I have created. I am happy you are here!
+- https://marleyschneiderr.github.io/react-to-marley/ 
 
 ## Contributors👈
 Created by Marley Schneider. 
