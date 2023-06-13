@@ -1,10 +1,10 @@
 import React from "react";
 import ImpressPng from "../assets/impress.png";
 import MusicPng from "../assets/music.png";
-import SocialPng from "../assets/be-more-social.png";
 import TextPng from "../assets/text.png";
 import EmployeePng from "../assets/Employee-Tracker.png";
 import RegexPng from "../assets/regex.png";
+import PalettePng from "../assets/homepage.png";
 
 const Projects = () => {
   return (
@@ -63,19 +63,19 @@ const Projects = () => {
           </div>
 
         {/* Project 3 */}
-          <div style={{ backgroundImage: `url(${SocialPng})` }} className="shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto div-pics">
+          <div style={{ backgroundImage: `url(${PalettePng})` }} className="shadow-lg shadow-[black] group container rounded-md flex justify-center items-center mx-auto div-pics">
             
             {/* More Hovering */}
             <div className="opacity-0 hover:opacity-100">
               <span className="text-2xl font bold text-white tracking-wider">
-                Be More Social 
+                Palette Town
               </span>
               <div className="pt-8 text-center">
-                <a href="https://github.com/marleyschneiderr/be-more-social">
+                <a href="https://github.com/tykervella/Palette-Town-">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Github</button>
                 </a>
 
-                <a href="https://drive.google.com/file/d/1hdZl9W89dOukRcrZ6jYHK2YTKBs7Ggl8/view">
+                <a href="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Video</button>
                 </a>
               </div>
