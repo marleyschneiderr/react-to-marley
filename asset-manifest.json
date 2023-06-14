@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-to-marley/static/css/main.2276da4d.css",
-    "main.js": "/react-to-marley/static/js/main.d841d95b.js",
+    "main.css": "/react-to-marley/static/css/main.26990ba6.css",
+    "main.js": "/react-to-marley/static/js/main.f73d423f.js",
     "static/media/homepage.png": "/react-to-marley/static/media/homepage.f74412066f8a0b21651a.png",
     "static/media/profile-image.png": "/react-to-marley/static/media/profile-image.67514b9b22321ec14747.png",
     "static/media/music.png": "/react-to-marley/static/media/music.23531447a7529e7fd257.png",
@@ -19,11 +19,11 @@
     "static/media/mongo.png": "/react-to-marley/static/media/mongo.91f15241e98fa5f1a61d.png",
     "static/media/msLOGO.png": "/react-to-marley/static/media/msLOGO.ee60de5b1b64adc673fb.png",
     "index.html": "/react-to-marley/index.html",
-    "main.2276da4d.css.map": "/react-to-marley/static/css/main.2276da4d.css.map",
-    "main.d841d95b.js.map": "/react-to-marley/static/js/main.d841d95b.js.map"
+    "main.26990ba6.css.map": "/react-to-marley/static/css/main.26990ba6.css.map",
+    "main.f73d423f.js.map": "/react-to-marley/static/js/main.f73d423f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2276da4d.css",
-    "static/js/main.d841d95b.js"
+    "static/css/main.26990ba6.css",
+    "static/js/main.f73d423f.js"
   ]
 }
