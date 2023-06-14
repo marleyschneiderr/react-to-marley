@@ -20,35 +20,35 @@ const Programs = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div className="bg-[#E500A4] shadow-md shadow-[#040c16] hover:scale-120 duration-600">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML Icon" />
+            <img className="mt-2 w-20 mx-auto" src={HTML} alt="HTML Icon" />
             <p className="my-5">HTML</p>
           </div>
           <div className="bg-[#E500A4] shadow-md shadow-[#040c16] hover:scale-120 duration-600">
-            <img className="w-20 mx-auto" src={JavaScript} alt="Javascript Icon" />
+            <img className="mt-2 w-20 mx-auto" src={JavaScript} alt="Javascript Icon" />
             <p className="my-5">JavaScript</p>
           </div>
           <div className="bg-[#E500A4] shadow-md shadow-[#040c16] hover:scale-120 duration-600">
-            <img className="w-20 mx-auto" src={CSS} alt="CSS Icon" />
+            <img className="mt-2 w-20 mx-auto" src={CSS} alt="CSS Icon" />
             <p className="my-5">CSS</p>
           </div>
           <div className="bg-[#E500A4] shadow-md shadow-[#040c16] hover:scale-120 duration-600">
-            <img className="w-20 mx-auto" src={Node} alt="Node.js Icon" />
+            <img className="mt-2 w-20 mx-auto" src={Node} alt="Node.js Icon" />
             <p className="my-5">Node.js</p>
           </div>
           <div className="bg-[#E500A4] shadow-md shadow-[#040c16] hover:scale-120 duration-600">
-            <img className="w-20 mx-auto" src={GitHub} alt="Github Icon" />
+            <img className="mt-2 w-20 mx-auto" src={GitHub} alt="Github Icon" />
             <p className="my-5">GitHub</p>
           </div>
           <div className="bg-[#E500A4] shadow-md shadow-[#040c16] hover:scale-120 duration-600">
-            <img className="w-20 mx-auto" src={Tailwind} alt="Tailwind Icon" />
+            <img className="mt-2 w-20 mx-auto" src={Tailwind} alt="Tailwind Icon" />
             <p className="my-5">Tailwind</p>
           </div>
           <div className="bg-[#E500A4] shadow-md shadow-[#040c16] hover:scale-120 duration-600">
-            <img className="w-20 mx-auto" src={Mongo} alt="MongoDB Icon" />
+            <img className="mt-2 w-20 mx-auto" src={Mongo} alt="MongoDB Icon" />
             <p className="my-5">MongoDB</p>
           </div>
           <div className="bg-[#E500A4] shadow-md shadow-[#040c16] hover:scale-120 duration-600">
-            <img className="w-20 mx-auto" src={ReactImg} alt="React Icon" />
+            <img className="mt-2 w-20 mx-auto" src={ReactImg} alt="React Icon" />
             <p className="my-5">React</p>
           </div>
         </div>

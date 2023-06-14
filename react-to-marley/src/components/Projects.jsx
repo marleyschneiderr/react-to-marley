@@ -67,7 +67,7 @@ const Projects = () => {
             
             {/* More Hovering */}
             <div className="opacity-0 hover:opacity-100">
-              <span className="text-2xl font bold text-white tracking-wider">
+              <span className="text-center text-2xl font bold text-white tracking-wider">
                 Palette Town
               </span>
               <div className="pt-8 text-center">
