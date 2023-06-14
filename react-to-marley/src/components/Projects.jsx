@@ -71,12 +71,12 @@ const Projects = () => {
                 Palette Town
               </span>
               <div className="pt-8 text-center">
-                <a href="https://github.com/tykervella/Palette-Town-">
+                <a href="https://github.com/tykervella/palette-town">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Github</button>
                 </a>
 
-                <a href="">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Video</button>
+                <a href="https://palette-town.herokuapp.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg">Live Link</button>
                 </a>
               </div>
             </div>
